@@ -1,0 +1,19 @@
+.primary-button {
+  background: #424244;
+  color: #faffff;
+  padding: 6px;
+  font-family: 'Jost', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  border-radius: 8px;
+
+  &:hover {
+    background: #faffff;
+    color: #424244;
+  }
+  &.filter {
+    width: 100px;
+    height: 45px;
+    margin: auto 0;
+  }
+}
